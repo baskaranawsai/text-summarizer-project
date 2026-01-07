@@ -1,0 +1,7 @@
+artifacts_root: artifacts
+
+data_ingestion:
+  root_dir: artifacts/data_ingestion
+  source_URL: https://huggingface.co/datasets/knkarthick/samsum
+  local_data_dir: artifacts/data_ingestion/samsum/
+  unzip_dir: artifacts/data_ingestion
